@@ -1,11 +1,16 @@
+body {
+  background-color: #979ba4;
+}
+
 .hero-image {
   background-image: url("./images/title.jpg");
-  background-color: #cccccc;
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  border-bottom: black;
+  border-bottom-style: solid;
 }
 
 .hero-text {
@@ -15,7 +20,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
-  font-family: 'Spinnaker', sans-serif;;
+  font-family: 'Spinnaker', sans-serif;
 }
 
 h3 {
@@ -32,8 +37,7 @@ h3 {
 
 a:hover {
   color: #2ff5ff;
-  border-bottom: solid;
-  border-bottom-width: thin;
+  text-decoration: underline;
 }
 
 .fa-teal {
@@ -48,4 +52,19 @@ html {
 .introcontent {
   background-image: ("./images/title.jpg");
   color: white;
+}
+
+.projects {
+  padding: 100px 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 50px;
+}
+
+.aboutmetitle {
+  text-align: center;
+  padding: 100px 0;
 }
